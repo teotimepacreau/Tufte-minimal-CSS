@@ -2,12 +2,12 @@
 
 # Features
 - full tables styling
-- img with figcaption on the bottom
+- figures and figcaption
 - sidenotes
 - blockquotes
 - h1 to h4 hierarchy
 
-# What could be added
+# What could be added 🚧
 - pre and code
 - automatic pagination
 

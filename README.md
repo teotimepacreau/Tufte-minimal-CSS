@@ -1,4 +1,4 @@
-# Tufte minimal CSS to look good almost everywhere
+# Tufte minimal CSS to look good almost anywhere
 
 # Features
 - full tables styling

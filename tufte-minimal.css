@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @page {
     size: A4;
-    margin: 28mm 22mm 21mm 27mm;
+    margin: 28mm 22mm 21mm 27mm;/*Tufte typical margins*/
 }
 @media print {
     body {
@@ -91,7 +91,7 @@
         font-size: 1.5rem;
         margin-top: 2rem;
         margin-bottom: 1.4rem;
-        line-height: 1; 
+        line-height: 1.3 
     }
     
     hr {
@@ -215,11 +215,7 @@
         content: "Fig. "counter(figureNumber)" : ";
         }
     
-    /* Sidenotes, margin notes, figures, captions */
-    img {
-        width: 100%;
-    }
-    
+    /* Sidenotes, margin notes */
     .sidenote,
     .marginnote {
         float: right;
@@ -267,22 +263,24 @@
     /* Tables */
     table {
         border-collapse: collapse;
-      } 
-      th {
+    } 
+    
+    th {
         font-weight: bold;
         background-color: rgba(202, 201, 201, 0.300);
-      }
-      th,td, caption{
+    }
+    
+    th,td, caption {
         padding-inline: 1rem;
         padding-block: 0.5rem;
         text-align: left;
-      }
+    }
       
-      tr{
+    tr {
         border-bottom: 0.1px solid rgba(202, 201, 201, 0.665);
-      }
+    }
       
-      caption {
+    caption {
         background-color: rgba(202, 201, 201, 0.665);
         font-size: 2.2rem;
         text-wrap: balance;

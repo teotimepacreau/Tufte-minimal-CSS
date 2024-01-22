@@ -1,4 +1,5 @@
 # Tufte minimal CSS to look good almost anywhere
+![Tufte PAGEDJS](https://github.com/teotimepacreau/Tufte-minimal-CSS/assets/95431443/59e95d37-4748-426b-8907-44de7c6733e1)
 
 # Features
 - full tables styling
